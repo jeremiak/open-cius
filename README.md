@@ -13,4 +13,4 @@ easy to use (hopefully), time series [crime in the us reports](https://ucr.fbi.g
 
 run the container with the scripts directory mounted as well as the data directory
 
-0. `$ docker run -v $PWD/data:/data -v $PWD/scripts:/src/scripts -it cius bash`
+0. `$ docker run -v $PWD/data:/data -v $PWD/scripts:/app/scripts -it cius bash`
