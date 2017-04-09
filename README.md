@@ -2,6 +2,8 @@
 
 easy to use (hopefully), time series [crime in the us reports](https://ucr.fbi.gov/crime-in-the-u.s) from the [fbi's ucr](https://ucr.fbi.gov/) program.
 
+[sample of cleaned output for table 1 and table 8](https://gist.github.com/jeremiak/d9a2c9e4d03b6dcedbcbf91c8e32cdcb)
+
 ## installation
 
 0. `$ git clone open-cius && cd open-cius`

@@ -73,4 +73,8 @@ data = pd.concat(dataframes)
 for col in cols[4:]:
     data = insert_rate(data, col)
 
+# remove axis generated from the row numbers
+data = data.reset_index()
+data = data.drop('index', axis=1)
+
 data.to_csv('%s/%s' % (clean_path, dest_filename))
